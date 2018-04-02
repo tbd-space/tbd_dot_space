@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  {{> head }}
+  <body class="grid_body">
+
+    {{> header}}
+
+    {{#if user}}
+      <div class="center_wrapper">
+        <p>Hi {{user.nickname}}</p>
+        <a href="/logout">
+          <button class="button">Log Out</button>
+        </a>
+      </div>
+    {{else}}
+      <div class="center_wrapper">
+        <a href="/login">
+          <button class="button">Sign Up / Log In</button>
+        </a>
+      </div>
+    {{/if}}
+
+  </body>
+</html>
