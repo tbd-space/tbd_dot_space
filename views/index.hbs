@@ -6,14 +6,18 @@
     {{> header}}
 
     {{#if user}}
-      <div class="center_wrapper">
+      <div class="center-wrapper">
         <p>Hi {{user.nickname}}</p>
         <a href="/logout">
           <button class="button">Log Out</button>
         </a>
       </div>
     {{else}}
-      <div class="center_wrapper">
+      <div class="center-wrapper">
+        <div id="art"></div>
+        <div class="tagline">
+          <h1>make good choices.</h1>
+        </div>
         <a href="/login">
           <button class="button">Sign Up / Log In</button>
         </a>
