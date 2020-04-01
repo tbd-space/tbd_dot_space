@@ -6,6 +6,11 @@ The public site for tbd_.
 
 1. `git clone`
 2. `npm install`
+3. `touch .env` (see section below)
+
+## .env files
+
+In order to run locally, you need to manage several local variables. Create a .env file and then get those variables as needed from the respective services.
 
 ## Running in dev
 
