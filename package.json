@@ -13,7 +13,7 @@
     "dotenv": "^5.0.1",
     "express": "^4.16.2",
     "express-session": "^1.15.6",
-    "hbs": "^4.0.1",
+    "hbs": "^4.1.0",
     "hbs-utils": "0.0.4",
     "nodemon": "^1.18.1",
     "passport": "^0.4.0",
